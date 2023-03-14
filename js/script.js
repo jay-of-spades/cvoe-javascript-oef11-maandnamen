@@ -110,7 +110,6 @@ function maandenVertalen() {
       huidige = huidigeNamen[11];
       break;
   }
-  console.log(gekozenMaand, typeof gekozenMaand, orde, oude, huidige);
   resultaat.classList.remove('hidden');
   resultaat.innerHTML =
     'De ' +
